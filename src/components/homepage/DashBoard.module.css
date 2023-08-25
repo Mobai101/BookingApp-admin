@@ -1,0 +1,52 @@
+.dashboard {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.dashboard h5 {
+  color: #9f98a4;
+  margin-bottom: 2rem;
+}
+
+.dashboard h2 {
+  color: #655e6d;
+  font-weight: 400;
+}
+
+.dashboard_card {
+  border-radius: 10px;
+  padding: 0.5rem;
+  box-shadow: 5px 10px 8px #d1d1d1;
+  width: auto;
+  position: relative;
+}
+
+.icon {
+  position: absolute;
+  border-radius: 5px;
+  padding: 0.3rem 0.35rem 0.15rem 0.35rem;
+  right: 0.5rem;
+  bottom: 0.5rem;
+}
+
+.icon_user {
+  background-color: #ffcccc;
+  color: #e44260;
+}
+
+.icon_cart {
+  background-color: #f8edd2;
+  color: #c38c00;
+}
+
+.icon_dollar {
+  background-color: #cce6cc;
+  color: #068306;
+}
+
+.icon_wallet {
+  background-color: #e6cce6;
+  color: #9f409f;
+}
